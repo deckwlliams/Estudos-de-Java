@@ -5,7 +5,7 @@ import java.util.Scanner;
         int num, res;
         System.out.println("Digite um numero");
         num = tcd.nextInt();
-        for(int cont = 1; cont <= 10; cont = cont + 1){
+        for(int cont = 1; cont <= 10; cont = cont++){
             if(cont == 5){
                 break;
             }
