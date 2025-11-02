@@ -4,7 +4,6 @@ public class Desafio2 {
         
         Scanner tcd = new Scanner(System.in);
         int x, res;
-       
         System.out.println("entre com um numero");
          x = tcd.nextInt(); 
         for (int a = 1; a <=10; a++){
