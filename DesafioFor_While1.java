@@ -27,6 +27,9 @@ public class DesafioFor_While1 {
 for(int i = 0; i < 10 ; i++){
 System.out.println(num + " + " + i + " = " + (num + i));
 }*/
+
+//Peça um número n e mostre a soma de todos os números de 1 até n.
+/* 
 int soma = 0;
 int i = 1;
 
@@ -37,5 +40,14 @@ i++;
 
 
 }
+ */
+
+ int fatorial = 1;
+ for(int i = 1; i<=num; i++){
+    fatorial *= i;
+
+ }
+   System.out.println("O fatorial de " + num + " é " + fatorial);
+
     }
 }
