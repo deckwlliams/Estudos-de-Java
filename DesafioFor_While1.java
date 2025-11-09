@@ -41,13 +41,40 @@ i++;
 
 }
  */
+/*
+Peça ao usuário para digitar um número inteiro positivo n
+e mostre o fatorial de n (ou seja, n! = n × (n−1) × (n−2) × ... × 1).
 
- int fatorial = 1;
+O programa deve exibir o resultado final do cálculo.
+
+🔹 Exemplo:
+Entrada: 5
+Saída: O fatorial de 5 é 120
+
+(pois 5 × 4 × 3 × 2 × 1 = 120)
+ * 
+ */
+
+/*  int fatorial = 1;
  for(int i = 1; i<=num; i++){
     fatorial *= i;
 
  }
    System.out.println("O fatorial de " + num + " é " + fatorial);
+*/
+ int divisores = 0;
 
+        for (int i = 1; i <= num; i++) {
+            
+            if (num % i == 0) {
+                divisores++;
+            }
+        }
+            if (divisores == 2){
+                System.out.println("numero primo");
+            }
+            else{
+                System.out.println("nao primo");
+            }
     }
 }
